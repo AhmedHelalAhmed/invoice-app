@@ -48,7 +48,7 @@
                     </svg>
                     <span class="side-menu__label">@lang('sidebar.Invoices')</span><i class="angle fe fe-chevron-down"></i></a>
                 <ul class="slide-menu">
-                    <li><a class="slide-item" href="#">@lang('sidebar.Billing List')</a></li>
+                    <li><a class="slide-item" href="{{ route('invoices.index') }}">@lang('sidebar.Billing List')</a></li>
                     <li><a class="slide-item" href="#">@lang('sidebar.Paid bills')</a></li>
                     <li><a class="slide-item" href="#">@lang('sidebar.Unpaid bills')</a>
                     </li>
