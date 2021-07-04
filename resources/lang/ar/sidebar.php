@@ -15,6 +15,6 @@ return [
     "Users" => "قائمة المستخدمين",
     "Permissions" => "صلاحيات المستخدمين",
     "Settings" => "الاعدادات",
-    "Add a section" => "اضافة قسم",
+    "Sections" => "الاقسام",
     "add product" => "اضافة منتج"
 ];

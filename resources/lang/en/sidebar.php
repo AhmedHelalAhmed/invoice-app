@@ -15,6 +15,6 @@ return [
     "Users" => "list of values",
     "Permissions" => "Powers for sale",
     "Settings" => "Settings",
-    "Add a section" => "Add a section",
+    "Sections" => "Sections",
     "add product" => "add product"
 ];

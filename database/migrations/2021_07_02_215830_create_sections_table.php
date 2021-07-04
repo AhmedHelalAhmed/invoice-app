@@ -17,7 +17,7 @@ class CreateSectionsTable extends Migration
             $table->id();
             $table->string('section_name', 999);
             $table->text('description')->nullable();
-            $table->string('created_by', 999);
+            $table->foreignId('user_id')->constrained()->onDelete('cascade');
             $table->timestamps();
         });
     }

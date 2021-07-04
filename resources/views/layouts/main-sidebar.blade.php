@@ -122,7 +122,7 @@
                     </svg>
                     <span class="side-menu__label">@lang('sidebar.Settings')</span><i class="angle fe fe-chevron-down"></i></a>
                 <ul class="slide-menu">
-                    <li><a class="slide-item" href="#">@lang('sidebar.Add a section')</a></li>
+                    <li><a class="slide-item" href="{{ route('sections.index') }}">@lang('sidebar.Sections')</a></li>
                     <li><a class="slide-item" href="#">@lang('sidebar.add product')</a></li>
                 </ul>
             </li>
